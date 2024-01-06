@@ -119,3 +119,34 @@ function sumaDos(n: number | string): number {
 }
 
 sumaDos("10");
+
+type Audit={
+  createdAt: string,
+  updatedAt: string
+}
+
+type Product = {
+name: string
+}
+
+const product: Audit & Product = {
+  createdAt: "",
+  updatedAt: "",
+  name: ""
+}
+
+type Fibo= 0 | 1 | 2 | 3 | 5;
+
+const nDeFibo: Fibo = 3;
+
+function toNumber (s: string | number){
+  if(!s){
+    return 0
+  }
+  return parseInt("s")
+}
+
+const n = toNumber("10")
+
+
+/* Sección 4: POO */
